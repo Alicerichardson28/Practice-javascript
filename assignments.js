@@ -8,28 +8,26 @@ console.log(population)
 console.log(typeof country)
 
 
-let age =30;
-age = 30;
+//  code challenge 
 
-var job = 'coder';
-job = 'teacher';
+// const marksMass = 78;
+// const marksHeight = 1.69;
 
-// not good idea
-// lastName = 'Richardson';
-// console.log(lastName);
+// const johnMass = 92;
+// const johnHeight = 1.95;
 
+const marksMass = 95;
+const marksHeight = 1.88;
 
-const now = 2037;
-const ageAlice = now - 1991;
-const ageSara = now - 2018;
-console.log(ageAlice, ageSara);
+const johnMass = 85;
+const johnHeight = 1.76;
 
-console.log(ageAlice * 2, ageAlice / 10, 2 ** 3);
-// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+// Calculate both their BMIS
+const bmiMarksResult = marksMass / marksHeight ** 2;
+const bmiJohnResult = johnMass / (johnHeight * johnHeight);
 
-const firstName = 'Alice';
-const lastName = 'Richardson';
-console.log(firstName + ' ' + lastName);
+// create boolean variable
+const markHigherBMI = (bmiMarksResult > bmiJohnResult);
 
-let x = 10 + 5;
-console.log(x)
+console.log(bmiMarksResult, bmiJohnResult);
+console.log(markHigherBMI);
