@@ -34,7 +34,7 @@ console.log(markHigherBMI);
 
 // second coding challenge
 if(bmiMarksResult > bmiJohnResult){
-    console.log(`Mark's BMI ${bmiMarksResult} is higher than John's!`)
+    console.log(`Mark's BMI (${bmiMarksResult}) is higher than John's!`)
 } else {
-    console.log(`John's BMI ${bmiMarksResult} is higher than Mark's!`)
+    console.log(`John's BMI (${bmiMarksResult}) is higher than Mark's!`)
 }
