@@ -68,22 +68,22 @@
 //     console.log('No one wins the trophy')
 // }
 
-const dolphinsScore = (97+ 112 + 80) / 3
-const koalasScore = (109+ 95 + 50) / 3
+// const dolphinsScore = (97+ 112 + 80) / 3
+// const koalasScore = (109+ 95 + 50) / 3
 
 
-console.log(dolphinsScore)
-console.log(koalasScore)
+// console.log(dolphinsScore)
+// console.log(koalasScore)
 
-if(dolphinsScore > koalasScore && dolphinsScore >= 100) {
-    console.log('Dolphins win the trophy');
-} else if ( koalasScore > dolphinsScore && koalasScore >= 100){
-    console.log('Koalas win the trophy');
-} else if (dolphinsScore === koalasScore && dolphinsScore >= 100 && koalasScore >=100){
-    console.log('Dolphins and Koalas both win the trophy')
-} else {
-    console.log('No one wins the trophy')
-}
+// if(dolphinsScore > koalasScore && dolphinsScore >= 100) {
+//     console.log('Dolphins win the trophy');
+// } else if ( koalasScore > dolphinsScore && koalasScore >= 100){
+//     console.log('Koalas win the trophy');
+// } else if (dolphinsScore === koalasScore && dolphinsScore >= 100 && koalasScore >=100){
+//     console.log('Dolphins and Koalas both win the trophy')
+// } else {
+//     console.log('No one wins the trophy')
+// }
 
 // const dolphinsScore = (97+ 112 + 101) / 3
 // const koalasScore = (109+ 95 + 106) / 3
@@ -98,3 +98,19 @@ if(dolphinsScore > koalasScore && dolphinsScore >= 100) {
 // } else if (dolphinsScore === koalasScore){
 //     console.log('Dolphins and Koalas both win the trophy')
 // }
+
+
+const tipFifteen = 15/100
+const tipTwenty = 20/100
+const bill = 275;
+
+// if( bill >= 50 && bill <= 300){
+//     console.log(bill * tipFifteen)
+// } else {
+//     console.log(bill * tipTwenty)
+// }
+
+
+const tip = bill <= 300 && bill >= 50 ? bill * tipFifteen : tipTwenty;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
