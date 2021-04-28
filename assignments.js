@@ -111,6 +111,7 @@ const bill = 275;
 // }
 
 
-const tip = bill <= 300 && bill >= 50 ? bill * tipFifteen : tipTwenty;
+// const tip = bill <= 300 && bill >= 50 ? bill * tipFifteen : tipTwenty;
+const tip = bill <= 450 && bill >= 100 ? bill * tipTwenty : tipFifteen;
 
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
